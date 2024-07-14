@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.t {
+    background-color: #2E4CFF;
+    height: 100vh;
+}
+
+header {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+    margin-left: 190px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact button {
+    font-size: 16px;
+    margin-right: 25px;
+    color: #2E4CFF;
+    border: none;
+    padding: 15px 43px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 47px;
+}
+
+.Home-content {
+    display: flex;
+    gap: 90px;
+    background: no-repeat top right;
+    background-image: url("./images/dot1.webp");
+    background-position: 210px 22px 6em 94%;
+}
+
+.Home-content img {
+    width: 340px;
+    margin-top: 50px;
+}
+
+.H-content-1 {
+    width: 590px;
+    height: fit-content;
+    padding: 60px;
+    color: #ffffffdf;
+    margin-top: 0;
+}
+
+.H-content-1 .contact {
+    font-size: 16px;
+    margin-right: 25px;
+    color: #2E4CFF;
+    border: none;
+    padding: 15px 43px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.signin {
+    font-size: 16px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 15px 43px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.H-content-2 img {
+    height: 480px;
+    width: auto;
+}
+
+.H-h1 {
+    font-size: 3.4em;
+    font-weight: 500;
+    line-height: 83px;
+}
+
+.frame {
+    width: 82.58%;
+    margin: 0 auto;
+}
+
+.H-p {
+    font-size: 22px;
+    font-weight: 100;
+    padding: 12px;
+    line-height: 50px;
+}
