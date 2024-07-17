@@ -174,3 +174,303 @@ nav {
     margin-bottom: 140px;
 
 }
+.amazing-team .h1{
+    font-size: 36px;
+    font-weight:900;
+    text-align: center;
+
+}
+.para{
+    color: #C4C4C4;
+}
+.id-card{
+   display: flex; 
+   margin: 80px;
+   justify-content:center;
+   gap: 50px;
+   justify-content: space-evenly;
+
+
+}
+.team{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 25px 25px 0px #0000000D;
+    text-align: center;
+    width: 200px;
+    min-height: 320px;
+    padding: 20px;
+    margin: 20px;
+}
+.team img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit:cover;
+}
+.social-icons{
+    display: flex;
+    
+}
+.social-icons img{
+    border-radius: 2px;
+    width: 26px;
+    height: 26px;
+    padding: 14px;
+
+}
+
+.pricing-section {
+    text-align: center;
+}
+
+.pricing-section h1 {
+    font-size: 1.9em;
+    margin-bottom: 2em;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding:24px;
+    width: 195px;
+    
+   text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+
+.popular:hover {
+    transform: translateY(-20px);
+    transition: transform 0.3s;
+}
+
+.pricing-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.pricing-card .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.pricing-card .save {
+    color:#C4C4C4;
+    margin-bottom: 1em;
+}
+
+.pricing-card button {
+    background-color:#2E4CFF;
+    color: #ffffff;
+    border: none;
+    padding:10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.pricing-card button:hover {
+    background-color: #007bff;
+}
+.pricing-card:hover{
+    border: 2px solid #2E4CFF;
+}
+
+.most-popular {
+    background-color:#007bff ;
+    color: #ffffff;
+    padding: 20px 0 ;
+    border-radius: 10px 10px 0 0;
+    position:relative;
+    top:-42px;
+    left: -24px;
+    width: calc( 100% + 48px);
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.popular {
+   
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+    box-sizing: border-box;
+}
+
+
+
+.blog-news {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.blog-news h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.blog-post {
+    position: relative;
+    max-width: 500px;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.blog-post img {
+    width:100%;
+    height: 340px;
+    display: block;
+}
+
+.blog-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: white;
+}
+
+.blog-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color:#007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    color:#2E4CFF;
+}
+.Email-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+}
+
+.Email-content {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 600px;
+    max-width: 90%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.3em;
+}
+
+.text h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.text p {
+    margin: 0;
+    color: #C4C4C4;
+}
+
+.contact-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #2E4CFF;
+    color: #ffffff;
+   display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+}
+.footer-links {
+        list-style: none;
+        display: flex;
+         gap: 50px;
+}
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.stay-connected p{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom:2em;
+}
+.stay-connected img{
+    width: 34px;
+    margin: 20px;
+
+}
+.logo2 img{
+    width:5em;
+    margin-top: 86px;
+    
+}
+.quick-explore h1{
+    margin-bottom: 2em;
+
+}
+.designed-by{
+    background-color:#2E4CFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em;
+}
+
+
